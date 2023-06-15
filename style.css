@@ -1,20 +1,5 @@
 
 * {
-  font-family: consolas;
   text-align: center;
-}
-
-body {
-  background: blue;
-  color: white;
-}
-
-a {
-  color: orange;
-}
-
-table {
-  width: 100%;
-  font-size: 25px;
-  border-color: white;
+  font-family: monospace;
 }
