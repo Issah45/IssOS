@@ -1,8 +1,8 @@
 import sys
 
-version = 1.0
-channel = "stable"
-codename = "Antiquity"
+version = 2.1
+channel = "lts"
+codename = "Changer"
 
 print("\nWelcome to Iss OS!")
 
