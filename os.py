@@ -14,11 +14,9 @@ def exit():
     sys.exit()
 
 while True:
-    print("""
-    What do you want to run?
-    e: exit
-    i: system info
-    """)
+    print("\nWhat do you want to run?")
+    print("e: exit")
+    print("i: system info\n")
     command = input()
 
     #System info

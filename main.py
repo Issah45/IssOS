@@ -7,10 +7,9 @@ print(f"\nIssOS {version} {channel} {codename}")
 print("By: Issah Abeebllahi Issah")
 
 while True:
-    choice = input("""
-    1. I have used IssOs before
-    2. I am a new user
-    """)
+    print("1. I have used IssOS before")
+    print("2. I am a new user")
+    choice = input()
     if choice == "1":
         username_file = open("data/username.info", "r").read()
         password_file = open("data/password.info", "r").read()
