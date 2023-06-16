@@ -1,5 +1,42 @@
 
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(199, 135, 255);
+}
+
 * {
-  text-align: center;
-  font-family: monospace;
+    font-family: monospace;
+}
+
+.title {
+    background: linear-gradient(rgb(111, 0, 255), rgb(170, 0, 255));
+    padding: 40px;
+    text-align: center;
+}
+
+.content {
+    background: white;
+    color: black;
+    width: 200px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.download,
+.content {
+    position: absolute;
+}
+
+.download {
+    left: 250px;
+    background: white;
+    color: black;
+    width: 50%;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 15px;
 }
