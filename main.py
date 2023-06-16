@@ -1,7 +1,6 @@
 
-version = 2.1
-channel = "lts"
-codename = "Changier"
+version = 1.2
+codename = "Forty Inches"
 
 print(f"\nIssOS {version} {channel} {codename}")
 print("By: Issah Abeebllahi Issah")
