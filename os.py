@@ -1,13 +1,11 @@
 import sys
 
-version = 2.1
-channel = "lts"
-codename = "Changer"
+version = (1, 0, 1)
 
 print("\nWelcome to Iss OS!")
 
 def sysinfo():
-    print(f"\nIssOS {version} {channel} {codename}")
+    print(f"\nIssOS {version}")
     print("By: Issah Abeebllahi Issah")
 
 def exit():

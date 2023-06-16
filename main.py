@@ -1,8 +1,7 @@
 
-version = 1.2
-codename = "Forty Inches"
+version = (1, 0, 1)
 
-print(f"\nIssOS {version} {channel} {codename}")
+print(f"\nIssOS {version}")
 print("By: Issah Abeebllahi Issah")
 
 while True:
