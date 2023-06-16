@@ -13,14 +13,14 @@ def exit():
 
 while True:
     print("\nWhat do you want to run?")
-    print("e: exit")
-    print("i: system info\n")
+    print("exit")
+    print("sysinfo\n")
     command = input()
 
     #System info
-    if command == "i":
+    if command == "sysinfo":
         sysinfo()
     
     #Exit
-    if command == "e":
+    if command == "exit":
         exit()
