@@ -1,6 +1,6 @@
 import sys
 
-version = (1, 0, 1)
+version = (1, 0, 3)
 
 print("\nWelcome to Iss OS!")
 

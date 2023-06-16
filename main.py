@@ -1,5 +1,5 @@
 
-version = (1, 0, 1)
+version = (1, 0, 3)
 
 print(f"\nIssOS {version}")
 print("By: Issah Abeebllahi Issah")
